@@ -1,0 +1,36 @@
+.new {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.new__title {
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--1);
+    margin-bottom: 8px;
+}
+
+.new__text {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--07);
+    margin-bottom: 30px;
+}
+
+.new__text2 {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--07);
+}
+
+@media screen and (min-width:768px) {
+    .new {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    .new__title {
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
+}

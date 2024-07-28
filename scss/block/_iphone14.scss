@@ -1,0 +1,94 @@
+.iphone14 {
+    background-color: #000;
+}
+
+.iphone14__title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.iphone14__text {
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.iphone14__btn {
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 8px;
+    background-color: var(--prime);
+    padding: 11px 40px;
+}
+
+.iphone14__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.iphone14__tablet_img {
+    display: none;
+}
+
+.iphone14__desktop_img {
+    display: none;
+}
+
+@media screen and (min-width:450px) {
+    .iphone14__wrapper {
+        gap: 50px;
+    }
+}
+
+@media screen and (min-width: 575px) {
+    .iphone14__imag_block {
+        display: none;
+    }
+
+    .iphone14__tablet_img {
+        display: block;
+    }
+
+    .iphone14__title {
+        font-size: 32px;
+        margin-bottom: 8px;
+    }
+
+    .iphone14__btn {
+        padding: 19px 40px;
+    }
+
+    .iphone14__wrapper {
+        gap: 72px;
+    }
+}
+
+@media screen and (min-width:850px) {
+    .iphone14__wrapper {
+        gap: 130px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .iphone14__tablet_img {
+       display: none;
+    }
+    
+    .iphone14__desktop_img {
+        display: block;
+    }
+
+    .iphone14__title {
+        font-size: 56px;
+        margin-bottom: 16px;
+    }
+
+    .iphone14__wrapper {
+        gap: 88px;
+    }
+}

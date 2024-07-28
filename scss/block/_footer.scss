@@ -1,0 +1,247 @@
+.footer__main {
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.footer_logo {
+    width: 26px;
+    height: 30px;
+}
+
+.footer__main_info {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--05);
+    margin-bottom: 4px;
+}
+
+.footer__logo {
+    flex-shrink: 0;
+}
+
+.footer__logo_block {
+    display: flex;
+    gap: 16px;
+}
+
+.footer__main_text {
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    color: var(--03);
+}
+
+.footer__main_logo_block {
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-bottom: 24px;
+}
+
+.footer__link {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--1);
+    margin-bottom: 8px;
+}
+
+.footer__list {
+    margin-bottom: 16px;
+}
+
+.footer__main_tel {
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--1);
+    margin-bottom: 4px;
+}
+
+.footer__main_text2 {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--06);
+    width: 180px;
+    margin-bottom: 4px;
+}
+
+.footer__main_contact {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--prime);
+    margin-bottom: 16px;
+}
+
+.footer__main_icon_block {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.footer__main_adress {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--1);
+    margin-top: 8px;
+}
+
+.footer__bottom {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    box-shadow: 0 -4px 4px 0 rgba(0, 0, 0, 0.05);
+}
+
+.footer_bootom_link {
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--09);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__bottom_list {
+    display: flex;
+    justify-content: space-between;
+}
+.footer_bootom_link:hover {
+    color: var(--prime);
+
+    .footer__span {
+        color: var(--prime);
+    }
+}
+
+.footer__span {
+    color: #cccccc;
+}
+
+@media screen and (min-width:700px) {
+    .footer__main {
+        padding-top: 24px;
+        padding-bottom: 32px;
+    }
+
+    .footer_logo {
+        width: 39px;
+        height: 45px;
+    }
+
+    .footer__main_info {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .footer__logo_block {
+        gap: 24px;
+        align-items: start;
+    }
+
+    .footer__main_info_block {
+        margin-top: 10px;
+    }
+
+    .footer__main_text {
+        font-size: 14px;
+        text-align: start;
+        padding-left: 64px;
+    }
+
+    .footer__main_logo_block {
+        padding-right: 0;
+        padding-left: 0;
+        margin-bottom: 32px;
+    }
+
+    .footer__link {
+        margin-bottom: 0;
+    }
+    
+    .footer__list {
+        margin-bottom: 32px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .footer__main_tel {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .footer__main_block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer__main_contact {
+        display: none;
+    }
+
+    .footer_bootom_link {
+        font-size: 20px;
+        flex-direction: row;
+        align-items: center;
+        gap: 8px;
+    }
+}
+
+@media screen and (min-width:1050px) {
+    .footer__main {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    .footer__main_logo_block {
+        display: block;
+    }
+
+    .footer__logo_block {
+        display: block;
+    }
+
+    .footer__main_text {
+        padding-left: 0;
+        max-width: 280px;
+    }
+
+    .footer__list {
+        margin-bottom: 0;
+        display: block;
+        gap: 0;
+    }
+
+    .footer__link {
+        margin-bottom: 16px;
+    }
+
+    .footer__main_des {
+        display: block;
+    }
+
+    .footer__main_block {
+        display: block;
+    }
+
+    .footer__main_tel {
+        font-size: 40px;
+        margin-bottom: 4px;
+    }
+
+    .footer__main_wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer__bottom {
+        display: none;
+    }
+
+    .footer__main_icon_block {
+        margin-bottom: 36px;
+    }
+
+    .footer__main_contact {
+        display: block;
+    }
+
+}
